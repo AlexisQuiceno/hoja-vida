@@ -1,0 +1,34 @@
+{
+  "contenido": {
+    "descripcion": "I am a young man originally from Samana-Caldas with many desires to improve myself Technician in systems with knowledge in; computer networks, preventive, corrective, and evolutionary maintenance in computer equipment and related, Front End Developer with knowledge in HTML, CSS",
+    "datosP": "Personal information",
+    "anios": "21 YEARS",
+    "tecnico": "SYSTEM TECHNIQUE",
+    "tecnologia": "SYSTEMS TECHNOLOGY",
+
+    "estudios": "Studies",
+    "lugar": "",
+    "estudio": "",
+
+    "experiencia": "Experience",
+    "labor": "PLACE",
+    "tiempo": "TiME",
+    "trabajo1": "Technical support",
+    "tr1": "6 months",
+
+    "proyectos": "Personal projects",
+    "pNombre": "NAME",
+    "platafor": "TECHNOLOGY",
+
+    "Contactar": "Contact"
+
+  },
+  "fomr":{
+      "nombre": "Name",
+      "email": "E-mail",
+      "mensaje": "Message",
+      "spanObligatorio": "",
+
+      "envia": "Send"
+  }
+}

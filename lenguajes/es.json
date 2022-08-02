@@ -1,0 +1,33 @@
+{
+  "contenido": {
+    "descripcion": "Soy un joven originario de Samana-Caldas con muchos deseos de superarme Tecnico en sistemas con conocimiento en; redes de computadores, mantenimiento preventivo, correctivo, y evolutivo en equipos de computo y afines, Front End Developer con conocimientos en HTML, CSS",
+    "datosP": "Datos Personales",
+    "anios": "21 AÑOS",
+    "tecnico": "TECNICO EN SISTEMAS",
+    "tecnologia": "TECNOLOGIA EN SISTEMAS",
+
+    "estudios": "Estudios",
+    "lugar": "Lugar",
+    "estudio": "Estudio",
+
+    "experiencia": "Experiencia",
+    "labor": "LABOR",
+    "tiempo": "TIEMPO",
+    "trabajo1": "Soporte Tecnico",
+    "tr1": "6 Meses",
+
+    "proyectos": "Proyectos personales ",
+    "pNombre": "NOMBRE",
+    "platafor": "TECNOLOGIA",
+
+    "Contactar": "Contactar"
+  },
+  "fomr": {
+    "nombre": "Nombre",
+    "email": "E-mail",
+    "mensaje": "Mensaje",
+    "spanObligatorio": "",
+
+    "envia": "Enviar"
+  }
+}

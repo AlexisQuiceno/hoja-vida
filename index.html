@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="stylesmodal.css" />
+  </head>
+  <body>
+    <header>
+      <div id="idioma" class="idioma">
+        <div class="lenguaje" data-lenguage="es">
+          <img src="imagenes/es.png" alt="" />
+        </div>
+        <div class="lenguaje" data-lenguage="en">
+          <img src="imagenes/en.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <section class="Contenedor_padre">
+      <section class="persona">
+        <article class="nombre">
+          <h2>Yonier Alexis Quiceno Rodriguez</h2>
+          <p data-section="contenido" data-value="descripcion">
+            Soy un joven originario de Samana-Caldas con muchos deseos de
+            superarme Tecnico en sistemas con conocimiento en; redes de
+            computadores, mantenimiento preventivo, correctivo, y evolutivo en
+            equipos de computo y afines, Front End Developer con conocimientos
+            en HTML, CSS <Vue class="js"></Vue>
+          </p>
+        </article>
+
+        <figure class="foto">
+          <img src="imagenes/FOTO.jpeg" alt="" />
+        </figure>
+      </section>
+
+      <aside class="datos">
+        <table class="tdata">
+          <caption
+            class="personales"
+            data-section="contenido"
+            data-value="datosP"
+          >
+            Datos personales
+          </caption>
+          <tr>
+            <th>YONIER ALEXIS</th>
+            <th>QUICENO RODRIGUEZ</th>
+          </tr>
+          <tr>
+            <th data-section="contenido" data-value="anios">21 AÑOS</th>
+            <th>SAMANÄ-CALDAS COLOMBIA</th>
+          </tr>
+          <tr>
+            <th>FRONT END DEVELOPER</th>
+            <th data-section="contenido" data-value="tecnico">
+              TECNICO EN SISTEMAS
+            </th>
+          </tr>
+
+          <tr>
+            <th>PLAYVOX</th>
+            <th data-section="contenido" data-value="tecnologia">
+              TECNOLOGIA EN SISTEMAS
+            </th>
+          </tr>
+        </table>
+      </aside>
+
+      <section class="estudio">
+        <article class="lugar">
+          <table class="datosEstudio">
+            <caption
+              class="estudiotitulo"
+              data-section="contenido"
+              data-value="estudios"
+            >
+              Estudios
+            </caption>
+            <tr>
+              <th data-section="contenido" data-value="lugar">LUGAR</th>
+              <th data-section="contenido" data-value="estudio">ESTUDIO</th>
+            </tr>
+            <tr>
+              <td>Institución Educativa el Silencio</td>
+              <td>Bachillerato</td>
+            </tr>
+            <tr>
+              <td>IES CINOC</td>
+              <td>Tecnica En Sistemas Informaticos</td>
+            </tr>
+            <tr>
+              <td>PROSPERCITY</td>
+              <td>FRONT END DEVELOPER</td>
+            </tr>
+            <tr>
+              <td>IES CINOC</td>
+              <td>BIG DATA en curso</td>
+            </tr>
+          </table>
+        </article>
+      </section>
+
+      <section class="experiencia">
+        <article>
+          <table class="datosEstudio">
+            <caption
+              class="experienciatitulo"
+              data-section="contenido"
+              data-value="experiencia"
+            >
+              Experiencia Laboral
+            </caption>
+            <tr>
+              <th data-section="contenido" data-value="labor">LABOR</th>
+              <th data-section="contenido" data-value="tiempo">TIEMPO</th>
+            </tr>
+            <tr>
+              <td data-section="contenido" data-value="trabajo1">
+                Soporte Tecnico
+              </td>
+              <td data-section="contenido" data-value="tr1">6 Meses</td>
+            </tr>
+          </table>
+        </article>
+      </section>
+
+      <section class="proyectos">
+        <article>
+          <table class="datosEstudio">
+            <caption
+              class="proyectosrealizados"
+              data-section="contenido"
+              data-value="proyectos"
+            >
+              Proyectos personales
+            </caption>
+            <tr>
+              <th data-section="contenido" data-value="pNombre">NOMBRE</th>
+              <th data-section="contenido" data-value="platafor">TECNOLOGIA</th>
+            </tr>
+            <tr>
+              <td>QUE HAY PA' HACER, PENSILVANIA</td>
+              <td>WEB</td>
+            </tr>
+          </table>
+        </article>
+      </section>
+
+      <footer>
+        <article class="piePagina">
+          <article class="red">
+            <a href=""><img src="imagenes/github.png" alt="" /></a>
+            <a href=""> <p>https://github.com/AlexisQuiceno/</p> </a>
+          </article>
+
+          <article class="red">
+            <img src="imagenes/LinkedIn.png" alt="" />
+            <a href="">
+              <p>https://www.linkedin.com/in/alexis-quiceno-5a6704219/</p>
+            </a>
+          </article>
+
+          <article class="red">
+            <img src="imagenes/telefono.png" alt="" />
+            <a href=""> <p>3234862801</p> </a>
+          </article>
+
+          <article class="red">
+            <img src="imagenes/e-mail.png" alt="" />
+            <a href=""> <p>alexisquicenodriguez@gmail.com</p> </a>
+          </article>
+        </article>
+      </footer>
+
+      <article>
+        <button
+          class="boton1"
+          id="open"
+          data-section="contenido"
+          data-value="Contactar"
+        >
+          Contactar
+        </button>
+      </article>
+
+      <div class="model" id="model">
+        <div class="modalinter">
+          <form class="form">
+            <p>
+              <label
+                for="nombre"
+                class="colocar_nombre"
+                data-section="fomr"
+                data-value="nombre"
+                >Nombre
+                <span class="obligatorio">*</span>
+              </label>
+              <input
+                type="text"
+                name="introducir_nombre"
+                id="nombre"
+                required="obligatorio"
+                placeholder="Escribe tu nombre"
+              />
+            </p>
+
+            <p>
+              <label
+                for="email"
+                class="colocar_email"
+                data-section="fomr"
+                data-value="email"
+                >Email
+                <span class="obligatorio">*</span>
+              </label>
+              <input
+                type="email"
+                name="introducir_email"
+                id="email"
+                required="obligatorio"
+                placeholder="Escribe tu Email"
+              />
+            </p>
+            <p>
+              <label
+                for="mensaje"
+                class="colocar_mensaje"
+                data-section="fomr"
+                data-value="mensaje"
+                >Mensaje
+                <span class="obligatorio">*</span>
+              </label>
+              <textarea
+                name="introducir_mensaje"
+                class="texto_mensaje"
+                id="mensaje"
+                required="obligatorio"
+                placeholder="Deja aquí tu comentario..."
+              ></textarea>
+            </p>
+
+            <button
+              type="submit"
+              name="enviar_formulario"
+              id="enviar"
+              data-section="fomr"
+              data-value="envia"
+            >
+              <p>Enviar</p>
+            </button>
+          </form>
+        </div>
+        <button class="botonc" id="close">X</button>
+      </div>
+    </section>
+    <script src="evento.js"></script>
+  </body>
+</html>
